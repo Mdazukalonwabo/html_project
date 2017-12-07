@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<!-- css external style sheet that is linked to all pages-->
+    <link rel="stylesheet" type="text/css" href="styleforproject.css">
+<!-- ends-->
+    <title>html_project</title>
+    <style>
+
+/*main grid add with 1 column and 2rows and a grid-gap include for separation of content*/
+      .grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 1vw;
+      }
+/*ends*/
+
+/*body given a background color that covers entire screen and appropriate font family*/
+      body{
+        background: url("https://catholic2themax.files.wordpress.com/2015/10/ashes-in-man.jpeg?w=500") no-repeat;
+        background-size: cover;
+        font-family:Arial;
+}
+/*ends*/
+    </style>
+  </head>
+
+  <body>
+<!-- list what will be made into a navbar using css external style sheet to that it will be conisitent throughout the webpage -->
+    <h1 id="heading">Contacts</h1>
+    <div class="grid">
+      <div>
+        <ul text-align=center id="nav">
+          <li><a href="Index.html">Home</a></li>
+          <li><a href="Portfolio.html">Portfolio</a></li>
+          <li>Contacts</li>
+        </ul>
+      </div>
+<!-- ends -->
+        <hr>
+        <div>
+<!-- heading of page with a summary paragraph explaining why form is there, form collacts basic details of user with a submit and clear button-->
+          <h3 align=center>for more information</h3>
+            <p align="center">Should you need to contact me please enter your contact deails on the provided space below and i will be in touch asap.</p>
+
+          <center><form id=form1>
+
+              Name and Surname:<br><input type="name" name="name" value="As found on ID"><br>
+              Email:<br><input type="email" name="E-mail"><br>
+              <input type="submit" name="submit" value="Send">
+              <input type="reset" name="reset" value="Clear">
+
+          </form></center>
+<!-- ends -->
+         </div>
+    </div>
+<!-- paragrph with a statment/slogan that i love and with a link to facebook and linkedin below-->
+          <p align="center"><strong><em>If you can dream it, wake up and go get it</strong></em></p>
+
+        <footer>
+          <a href="https://www.facebook.com/lonwabo.siphomdonga" target="_blank"><img src="http://www.freeiconspng.com/uploads/facebook-transparent-pics-18.png" alt="facebooklink" width="50px" height="50px"></a>
+          <a href="https://www.linkedin.com/in/lonwabo-mdazuka-b8499b150/" target="_blank"><img src="http://www.freeiconspng.com/uploads/linkedin-icon-19.png" alt="linkedin" width="50px" height="50px"></a>
+        </footer>
+<!--ends-->
+  </body>
+</html>

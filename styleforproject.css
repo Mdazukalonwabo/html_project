@@ -1,0 +1,79 @@
+/*body of website given a background color And image fits entire wesite, with a font-family for all*/
+      body{
+        background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH-5dMpiZwkfKuwjvmJFJaTB3MXqzhxgQalfw8XKRTMvBogEj3Ew") no-repeat;
+        background-size: cover;
+        font-family:Arial;
+}
+/*ends*/
+
+/*text given a color and aligned to the center*/
+      #heading {
+          color: black;
+          text-align: center;
+}
+/*ends*/
+
+/*heading 1,2 and 3 given a color and aligned to the center*/
+      h1,h2,h3{
+          color: black;
+          align-content: center;
+}
+/*ends*/
+
+/*content aligned to center*/
+      #lonwabo{
+        align-content: center;
+}
+/*ends*/
+
+/*paragraph given a black color and font size*/
+      p{
+        color: black;
+        font-size: 25px;
+}
+/*ends*/
+
+/*id given a approriate font size*/
+      #story{
+        font-size: 20px;
+}
+/*ends*/
+
+/*automated margin and padding removed*/
+      #nav {
+          margin: 0px;
+          padding: 0px;
+}
+/*ends*/
+
+/*list items floated to the left to position them as a navbar, with a propriate hieght and width, with a transparent background, text placed in center with a font size, margin to the right also given and bullets removed, 10% border add */
+      #nav li{
+            float: left;
+            width: 400px;
+            height: 40px;
+            background-color: green;
+            border-radius: 50%;
+            opacity: 0.8;
+            line-height: 40px;
+            text-align: center;
+            font-size: 30px;
+            margin-right: 2px;
+            list-style-type: none;
+      
+    }
+/*ends*/
+
+/*underliner in words removed and given a with color with the display removed*/
+      #nav li a{
+                text-decoration: none;
+                color: white;
+                display: block;
+}
+/*ends*/
+
+/*wording of navbar given a hover function with a background color*/
+      #nav li a:hover{
+          background-color: Gold;
+          border-radius: 50%;
+}
+/*ends*/
